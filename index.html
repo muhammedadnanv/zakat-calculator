@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zakat Calculator (Simple One)</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            margin-top: 70px;
+            background: #1C2331;
+            color: #fff;
+        }
+        .messageReveal {
+            color: white;
+        } 
+        div.wercop{
+            text-align: center;
+   
+        }
+    </style>
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                
+                <h1 class="display-4 text-center mb-3 text-white">Simple Zakat Calculator</h1>
+                <form id="zakat-form">
+                    <div class="form-group">
+                        <input id="income" type="number" class="form-control form-control-lg display-1" placeholder="Enter eligible Amount...">
+                    </div>
+                </form>
+                <div id="output">
+                    <div class="card bg-success mb-2">
+                        <div class="card-block p-2">
+                            <h4>Zakat:</h4>
+                            <div class="display-4" id="resultoutput"></div>
+                        </div>
+                    </div>
+                    <div class="card bg-transparent border-0 mb-2">
+                        <div class="card-block">
+                            <h4 class="p-2"></h4>
+                            <div id="message" class="text-dark"><h2></h2></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wercop">
+                <h4>Please Send  ₹500 Rupees</h4>
+                <p></p>
+            </div>
+        </div>
+    </div>
+   
+
+    <!-- JavaScript -->
+    <script src="sjirt.js"></script>
+</body>
+</html>
